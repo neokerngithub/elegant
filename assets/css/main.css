@@ -2655,30 +2655,3 @@ input, select, textarea {
 html {
     scroll-behavior: smooth;
 }
-.testimonials{
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
-    text-align: center;
-    transition: 0.5s;
-}
-
-/* Testimonials */
-.testimonials
-.testimonial-col{
-    border-radius: 10px;
-    margin-bottom: 2%;
-    margin: 0.2%;
-    text-align: center;
-    background: #fff3f3;
-    padding: 20px 12px;
-    cursor: pointer;
-    display: flex;
-}
-.testimonial-col p{
-    padding: 0;
-}
-.testimonial-col h3{
-    margin-top: 10px;
-    text-align: center;
-}
