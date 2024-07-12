@@ -2652,3 +2652,6 @@ input, select, textarea {
         font-size: 20px;
     }
 }
+html {
+    scroll-behavior: smooth;
+}
