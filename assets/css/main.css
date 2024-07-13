@@ -2657,8 +2657,7 @@ html {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: center;
-        cursor: pointer;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .testimonial-col {
     display: flex;
@@ -2666,7 +2665,6 @@ html {
     align-items: center;
     padding: 20px;
     background: #f9f9f9;
-    cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 600px;
