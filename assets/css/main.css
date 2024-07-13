@@ -1980,7 +1980,7 @@ input, select, textarea {
 			background: #fff;
 			margin: 0;
 			padding: 1em 0 1em 0;
-			font-size: 1em;
+			font-size: 0.9em;
 		}
 
 			.item header h3 {
@@ -2162,7 +2162,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #00A87B;
 					}
 
 /* Footer */
@@ -2640,10 +2640,6 @@ input, select, textarea {
     font-size: 1em;
     color: #888;
     font-weight: 100;
-}
-
-.contact-info:hover {
-    color: #004AAD;;
 }
 /*------ location ------*/
 
