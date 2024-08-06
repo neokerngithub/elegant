@@ -212,7 +212,7 @@ target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</sp
 				<!-- Copyright -->
 				<div class="container">
 					<ul class="copyright">
-						<li>&copy; <span id="year"></span> | Modern Edge Architects and Engineers Pvt. Ltd. <br> <p>This page has been visited <span id="counter">0</span> times.</p></li>
+						<li>&copy; <span id="year"></span> | Modern Edge Architects and Engineers Pvt. Ltd.</li>
 					</ul>
 				</div>
 
@@ -226,23 +226,5 @@ target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</sp
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-        // Function to update the counter
-        function updateCounter() {
-            // Check if the counter is stored in localStorage
-            if (localStorage.getItem('pageCounter')) {
-                // Increment the counter
-                localStorage.setItem('pageCounter', parseInt(localStorage.getItem('pageCounter')) + 1);
-            } else {
-                // Initialize the counter if it doesn't exist
-                localStorage.setItem('pageCounter', 1);
-            }
-
-            // Update the counter display
-            document.getElementById('counter').textContent = localStorage.getItem('pageCounter');
-        }
-
-        // Update the counter when the page loads
-        window.onload = updateCounter;
-    </script>
+			
 	</body>
