@@ -123,3 +123,21 @@
 })(jQuery);
 // Update year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
+
+document.addEventListener('DOMContentLoaded', function () {
+    const testimonials = document.querySelectorAll('.testimonial-col');
+    let index = 0;
+
+    function showNextTestimonial() {
+        testimonials.forEach((testimonial, i) => {
+            testimonial.style.transform = `translateX(-${index * 100}%)`;
+        });
+
+        index++;
+        if (index === testimonials.length) {
+            index = 0;
+        }
+    }
+
+    setInterval(showNextTestimonial, 4000); // Change testimonial every 3 seconds
+});
