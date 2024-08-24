@@ -2666,11 +2666,19 @@ html {
     padding: 20px;
     background: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    min-width: 100%;
     max-width: 600px;
     margin: 0 auto;
     margin-bottom:15px;
+    transition: transform 0.5s ease;
+    
 }
 .fa-star{
     color: #00A87B;
+}
+.testimonial-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;    
 }
