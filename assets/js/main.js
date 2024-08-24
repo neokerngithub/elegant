@@ -139,5 +139,5 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    setInterval(showNextTestimonial, 4000); // Change testimonial every 3 seconds
+    setInterval(showNextTestimonial, 3000); // Change testimonial every 3 seconds
 });
