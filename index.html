@@ -248,7 +248,7 @@ target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</
 				<!-- Copyright -->
 				<div class="container">
 					<ul class="copyright">
-						<li>&copy; <span id="year"></span> | Modern Edge Architects and Engineers Pvt. Ltd.</li>
+						<li>&copy; <span id="year-range"></span> | Modern Edge Architects and Engineers Pvt. Ltd.</li>
 					</ul>
 				</div>
 
@@ -262,5 +262,12 @@ target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<script>
+    const establishedYear = 2024;
+    const currentYear = new Date().getFullYear();
+    const yearText = establishedYear === currentYear ? `${establishedYear}` : `${establishedYear} - ${currentYear}`;
+    document.getElementById('year-range').textContent = yearText;
+</script>
 			
 	</body>
+
